@@ -1,6 +1,7 @@
 Sample showing how to handle events, like button clicks, on interface in Compose using a UiEvent Class and passing only OnEvent parameter on Composable functions to avoid a long list of event calls on each composable.
 
 Instead of: 
+
     @composable
     fun ComposeComponent(
         onButtonOneClicked: () -> Unit,
